@@ -1,0 +1,99 @@
+.card-container {
+    width: 300px;
+    height: 300px;
+    background: #010101;
+    border-radius: 15px;
+    padding: 26px;
+    box-sizing: border-box;
+}
+
+.card-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.c-top {
+    /* background: red; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.c-logo {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 500;
+    background : #2A1800;
+}
+
+.status-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #39b309;
+    margin-left: 8px;
+}
+
+.c-info {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.c-emp-name {
+    font-size: 20px;
+    font-weight: 500;
+    color: #dddada;
+}
+
+.c-emp-position {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ada9a9;
+}
+
+.c-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.dividing-line {
+    width: 100%;
+    height: 1px;
+    background: #ffffff47;
+    margin: 20px 0;
+}
+
+.emp-depart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ada9a9;
+}
+
+.emp-status {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ada9a9;
+}
+
+.emp-status-value {
+    color: #39b309;
+    font-weight: 500;
+}
