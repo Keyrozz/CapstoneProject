@@ -5,7 +5,7 @@ export default function EmployeeList({ employees }) {
     return (
 
         <>
-        <div className="employee-list-containder">
+        <div className="employee-list-container">
            {employees.map((employee, id) => (
              <EmployeeCard
                key={id}
