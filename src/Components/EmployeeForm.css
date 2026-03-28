@@ -1,0 +1,42 @@
+.employee-card {
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.employee-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+.employee-name {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.employee-info {
+  margin: 6px 0;
+  color: #555;
+}
+
+.status {
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.status.actif {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status.inactif {
+  background-color: #f8d7da;
+  color: #721c24;
+}
