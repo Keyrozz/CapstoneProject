@@ -1,0 +1,26 @@
+:root {
+    background: #18181b;
+}
+
+.app-container {
+display: flex;
+flex-direction: column;
+gap: 20px;
+align-items: flex-start;
+}
+
+.app-top {
+    padding : 10px 40px;
+}
+
+.app-title{
+    font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.subtitle {
+    font-size: 15px;
+    font-weight: 400;
+    color: #ada9a9;
+}
