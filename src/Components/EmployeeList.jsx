@@ -8,7 +8,7 @@ export default function EmployeeList({ employees }) {
         <div className="employee-list-containder">
            {employees.map((employee, id) => (
              <EmployeeCard
-               key={id}
+               key={employee.id ?? id}
                name={employee.name}
                position={employee.position}
                department={employee.department}
